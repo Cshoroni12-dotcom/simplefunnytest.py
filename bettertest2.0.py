@@ -7,9 +7,15 @@ def check(correct, answer):
     global score
     global hp
     if correct == answer:
-        print("you got it right!")
-        score += 1
-        return True
+        if hp == 3:
+            print("wow one try? nice , three points for you")
+            score += 3
+        elif hp == 2:
+            print("umm ok..? , points for you")
+            score += 2
+        elif hp == 1:
+            print("bro")
+            score += 1
     else:
         hp -= 1
         print("nope, you lose a life, try again")
@@ -17,6 +23,7 @@ def check(correct, answer):
         return False
 
 
+# riddles list
 riddles = [
     ("cycle cycle cycle > ", "tricycle"),
     ("stand stand stand i > ", "understand"),
@@ -25,6 +32,7 @@ riddles = [
     ("space space space > ", "outerspace")
 ]
 
+# pick 2 random riddles (no duplicates)
 selected = random.sample(riddles, 2)
 
 for question, correct_answer in selected:
