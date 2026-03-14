@@ -46,3 +46,4 @@ while hp > 0:
 
 print("Final score:", score)
 #scrapped due to buggs
+#fixed
