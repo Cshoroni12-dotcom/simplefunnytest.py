@@ -43,3 +43,4 @@ for question, correct_answer in selected:
             break
 
 print("Final score:", score)
+#why does the code look identical?
