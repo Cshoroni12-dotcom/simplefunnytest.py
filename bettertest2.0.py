@@ -45,3 +45,4 @@ for question, correct_answer in selected:
 print("Final score:", score)
 #why does the code look identical?
 #simple project made for my academy test just for funaies
+#so i passed it
