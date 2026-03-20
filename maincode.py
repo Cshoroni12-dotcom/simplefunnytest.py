@@ -48,3 +48,4 @@ print("Final score:", score)
 #scrapped due to buggs
 #fixed
 #inefficient btw
+#maybe i just love pressing rhe commit button
