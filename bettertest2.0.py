@@ -46,3 +46,4 @@ print("Final score:", score)
 #why does the code look identical?
 #simple project made for my academy test just for funaies
 #so i passed it
+#uhhh i dont know why i keep adding sums but idk
